@@ -1,0 +1,4 @@
+use `jenkings_dsa_v3.0`;
+
+INSERT INTO `service_template` (`template_id`,`template_name`, `service_type`) VALUES (1,'hsi', 'Hsi');
+INSERT INTO `hsi_template` (`trafficProfile`, `trafficProfile_editable`, `clientClass`, `clientClass_editable`, `maxCpe`, `maxCpe_editable`, `reservedIpList`, `reservedIpList_editable`, `bindLanPort`, `bindLanPort_editable`, `gd_status`, `gd_status_editable`, `gd_ipv4_nat`, `gd_ipv4_nat_editable`, `gd_ipv4_ipMode`, `gd_ipv4_ipMode_editable`, `gd_ipv4_address`, `gd_ipv4_address_editable`, `gd_ipv4_mask`, `gd_ipv4_mask_editable`, `gd_ipv4_gw`, `gd_ipv4_gw_editable`, `gd_ipv4_dns`, `gd_ipv4_dns_editable`, `gd_ipv6_enabled`, `gd_ipv6_enabled_editable`, `wifi_status`, `wifi_status_editable`, `name`)  VALUES ( 'test', 1, 'test', 1, 12, 1, 12, 1, 4, 1, 'enabled', 1, 'enabled', 1, 'DHCP', 1, '10.0.0.2', 1, '255.0.0.0', 1, '12.1.1.1', 1, '12.1.2.2', '1', 'enabled', 1, 'enabled', 1, 'hsi');

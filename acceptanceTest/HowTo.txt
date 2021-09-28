@@ -1,0 +1,7 @@
+Como correr las pruebas sobre la api
+
+1. Actualizar el soapui que esta en esta misma carpeta en la pc que se quiera correr (sts-dsa-1.0-soap-ui-acceptancetest.xml)
+2. Cambiar la property de path que tiene dsa-jenkin con el DSA suyo.
+3. Correr en la base que apunta su DSA el script preparetest.sql antes de ejecutar cada test case.
+4. Ir ejecutando cada test cases (previamente correr paso 3).
+5. Buena suerte!

@@ -1,0 +1,11 @@
+Bajar repo completo de DSA - branch develop. - Bajado
+Crear un nuevo branch para pushear cambios. - Creado DSAv3-automated-test - No pusheado.
+Entender los casos y ver delta de TC faltantes - 
+hacer los script de limpieza de DB - Ver DSA v2 - 
+asserts contra la DB de DSA - 
+Realizar integracion contra FDM/BP - 
+
+Posibles Mejoras:
+- Validar que datos estan hardcode y tratar de subirlos como customs properties.
+- Realizar los assert en un mismo script.
+- Tratar de agregar property transfer. Ej crmSubCode.

@@ -1,0 +1,16 @@
+2018-12-31 10:55:26,041 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/nico/soapui-settings.xml]
+2018-12-31 10:55:26,729 INFO  [PluginManager] 0 plugins loaded in 2 ms
+2018-12-31 10:55:26,729 INFO  [DefaultSoapUICore] All plugins loaded
+2018-12-31 10:55:27,525 INFO  [WsdlProject] Loaded project from [file:/home/nico/Repository/BP_Git/dsa/test/acceptanceTest/sts-dsa-1.0-soap-ui-acceptancetest.xml]
+2018-12-31 10:55:27,532 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [sts-dsa-acceptanceTest]
+2018-12-31 10:55:27,533 INFO  [SoapUITestCaseRunner] Running TestSuite [DSA Api V1.0 Basic ABMs Suit], runType = SEQUENTIAL
+2018-12-31 10:55:27,544 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Test E2E Subscriber Success]
+2018-12-31 10:55:27,548 INFO  [SoapUITestCaseRunner] running step [GetTheStatusResponseHasToBeWellFormat]
+2018-12-31 10:55:27,989 INFO  [SoapUITestCaseRunner] Assertion [Invalid HTTP Status Codes] has status VALID
+2018-12-31 10:55:27,989 INFO  [SoapUITestCaseRunner] Assertion [ContainsResponse] has status VALID
+2018-12-31 10:55:27,996 INFO  [SoapUITestCaseRunner] running step [Create - CreateMartinBravoSubscriberShouldReturnOk]
+2018-12-31 10:55:28,186 INFO  [SoapUITestCaseRunner] Assertion [ContainResultSuccess] has status VALID
+2018-12-31 10:55:28,186 INFO  [SoapUITestCaseRunner] Assertion [ContainSubscriberName] has status VALID
+2018-12-31 10:55:28,186 INFO  [SoapUITestCaseRunner] Assertion [ContainSubscriberNumber] has status VALID
+2018-12-31 10:55:28,188 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Test E2E Subscriber Success], time taken: 415ms, status: FINISHED
+2018-12-31 10:55:28,189 INFO  [SoapUITestCaseRunner] TestSuite [DSA Api V1.0 Basic ABMs Suit] finished with status [FINISHED] in 653ms

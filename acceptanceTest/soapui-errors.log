@@ -1,0 +1,368 @@
+2018-12-31 10:04:18,137 ERROR [errorlog] java.lang.Exception: ContainResultSuccess in [Create - CreateMartinBravoSubscriberShouldReturnOk] failed;
+[Missing token [Result":"Success"] in Response]
+Status: FAILED
+Time Taken: 108
+Size: 218
+Timestamp: Mon Dec 31 10:04:17 ART 2018
+TestStep: Create - CreateMartinBravoSubscriberShouldReturnOk
+
+----------------- Messages ------------------------------
+[ContainResultSuccess] Missing token [Result":"Success"] in Response
+[ContainSubscriberName] Missing token ["name":"Martin Bravo"] in Response
+[ContainSubscriberNumber] Missing token ["number":"100002"] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://10.0.0.100:8080
+Username: stechs
+Method: POST
+StatusCode: 200
+URL: http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber
+Password: stechs
+
+---------------- Request ---------------------------
+Cookie: [PHPSESSID=rt35nvm21h7prabckcqnnina44]
+Authorization: [Basic c3RlY2hzOnN0ZWNocw==]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [10.0.0.100:8080]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+
+POST http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 49
+Host: 10.0.0.100:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: PHPSESSID=rt35nvm21h7prabckcqnnina44
+Cookie2: $Version=1
+Authorization: Basic c3RlY2hzOnN0ZWNocw==
+
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=97]
+Server: [Apache/2.2.22 (Debian)]
+Cache-Control: [no-store, no-cache, must-revalidate, post-check=0, pre-check=0]
+Connection: [Keep-Alive]
+Expires: [Thu, 19 Nov 1981 08:52:00 GMT]
+Pragma: [no-cache]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [218]
+Date: [Mon, 31 Dec 2018 13:04:18 GMT]
+X-Powered-By: [Stechs]
+Content-Type: [application/json]
+
+ 	 	 	{"Display_items":0,"Matched_items":0,"Error_code":406,"Items":null,"Error_str":"Subscriber number already exists","Error_str_detail":"The subscriber 100002 already exits","DoneTime":"0.000003","Result":"Failure"}
+ContainSubscriberName in [Create - CreateMartinBravoSubscriberShouldReturnOk] failed;
+[Missing token ["name":"Martin Bravo"] in Response]
+Status: FAILED
+Time Taken: 108
+Size: 218
+Timestamp: Mon Dec 31 10:04:17 ART 2018
+TestStep: Create - CreateMartinBravoSubscriberShouldReturnOk
+
+----------------- Messages ------------------------------
+[ContainResultSuccess] Missing token [Result":"Success"] in Response
+[ContainSubscriberName] Missing token ["name":"Martin Bravo"] in Response
+[ContainSubscriberNumber] Missing token ["number":"100002"] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://10.0.0.100:8080
+Username: stechs
+Method: POST
+StatusCode: 200
+URL: http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber
+Password: stechs
+
+---------------- Request ---------------------------
+Cookie: [PHPSESSID=rt35nvm21h7prabckcqnnina44]
+Authorization: [Basic c3RlY2hzOnN0ZWNocw==]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [10.0.0.100:8080]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+
+POST http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 49
+Host: 10.0.0.100:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: PHPSESSID=rt35nvm21h7prabckcqnnina44
+Cookie2: $Version=1
+Authorization: Basic c3RlY2hzOnN0ZWNocw==
+
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=97]
+Server: [Apache/2.2.22 (Debian)]
+Cache-Control: [no-store, no-cache, must-revalidate, post-check=0, pre-check=0]
+Connection: [Keep-Alive]
+Expires: [Thu, 19 Nov 1981 08:52:00 GMT]
+Pragma: [no-cache]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [218]
+Date: [Mon, 31 Dec 2018 13:04:18 GMT]
+X-Powered-By: [Stechs]
+Content-Type: [application/json]
+
+ 	 	 	{"Display_items":0,"Matched_items":0,"Error_code":406,"Items":null,"Error_str":"Subscriber number already exists","Error_str_detail":"The subscriber 100002 already exits","DoneTime":"0.000003","Result":"Failure"}
+ContainSubscriberNumber in [Create - CreateMartinBravoSubscriberShouldReturnOk] failed;
+[Missing token ["number":"100002"] in Response]
+Status: FAILED
+Time Taken: 108
+Size: 218
+Timestamp: Mon Dec 31 10:04:17 ART 2018
+TestStep: Create - CreateMartinBravoSubscriberShouldReturnOk
+
+----------------- Messages ------------------------------
+[ContainResultSuccess] Missing token [Result":"Success"] in Response
+[ContainSubscriberName] Missing token ["name":"Martin Bravo"] in Response
+[ContainSubscriberNumber] Missing token ["number":"100002"] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://10.0.0.100:8080
+Username: stechs
+Method: POST
+StatusCode: 200
+URL: http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber
+Password: stechs
+
+---------------- Request ---------------------------
+Cookie: [PHPSESSID=rt35nvm21h7prabckcqnnina44]
+Authorization: [Basic c3RlY2hzOnN0ZWNocw==]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [10.0.0.100:8080]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+
+POST http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 49
+Host: 10.0.0.100:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: PHPSESSID=rt35nvm21h7prabckcqnnina44
+Cookie2: $Version=1
+Authorization: Basic c3RlY2hzOnN0ZWNocw==
+
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=97]
+Server: [Apache/2.2.22 (Debian)]
+Cache-Control: [no-store, no-cache, must-revalidate, post-check=0, pre-check=0]
+Connection: [Keep-Alive]
+Expires: [Thu, 19 Nov 1981 08:52:00 GMT]
+Pragma: [no-cache]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [218]
+Date: [Mon, 31 Dec 2018 13:04:18 GMT]
+X-Powered-By: [Stechs]
+Content-Type: [application/json]
+
+ 	 	 	{"Display_items":0,"Matched_items":0,"Error_code":406,"Items":null,"Error_str":"Subscriber number already exists","Error_str_detail":"The subscriber 100002 already exits","DoneTime":"0.000003","Result":"Failure"}
+
+java.lang.Exception: ContainResultSuccess in [Create - CreateMartinBravoSubscriberShouldReturnOk] failed;
+[Missing token [Result":"Success"] in Response]
+Status: FAILED
+Time Taken: 108
+Size: 218
+Timestamp: Mon Dec 31 10:04:17 ART 2018
+TestStep: Create - CreateMartinBravoSubscriberShouldReturnOk
+
+----------------- Messages ------------------------------
+[ContainResultSuccess] Missing token [Result":"Success"] in Response
+[ContainSubscriberName] Missing token ["name":"Martin Bravo"] in Response
+[ContainSubscriberNumber] Missing token ["number":"100002"] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://10.0.0.100:8080
+Username: stechs
+Method: POST
+StatusCode: 200
+URL: http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber
+Password: stechs
+
+---------------- Request ---------------------------
+Cookie: [PHPSESSID=rt35nvm21h7prabckcqnnina44]
+Authorization: [Basic c3RlY2hzOnN0ZWNocw==]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [10.0.0.100:8080]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+
+POST http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 49
+Host: 10.0.0.100:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: PHPSESSID=rt35nvm21h7prabckcqnnina44
+Cookie2: $Version=1
+Authorization: Basic c3RlY2hzOnN0ZWNocw==
+
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=97]
+Server: [Apache/2.2.22 (Debian)]
+Cache-Control: [no-store, no-cache, must-revalidate, post-check=0, pre-check=0]
+Connection: [Keep-Alive]
+Expires: [Thu, 19 Nov 1981 08:52:00 GMT]
+Pragma: [no-cache]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [218]
+Date: [Mon, 31 Dec 2018 13:04:18 GMT]
+X-Powered-By: [Stechs]
+Content-Type: [application/json]
+
+ 	 	 	{"Display_items":0,"Matched_items":0,"Error_code":406,"Items":null,"Error_str":"Subscriber number already exists","Error_str_detail":"The subscriber 100002 already exits","DoneTime":"0.000003","Result":"Failure"}
+ContainSubscriberName in [Create - CreateMartinBravoSubscriberShouldReturnOk] failed;
+[Missing token ["name":"Martin Bravo"] in Response]
+Status: FAILED
+Time Taken: 108
+Size: 218
+Timestamp: Mon Dec 31 10:04:17 ART 2018
+TestStep: Create - CreateMartinBravoSubscriberShouldReturnOk
+
+----------------- Messages ------------------------------
+[ContainResultSuccess] Missing token [Result":"Success"] in Response
+[ContainSubscriberName] Missing token ["name":"Martin Bravo"] in Response
+[ContainSubscriberNumber] Missing token ["number":"100002"] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://10.0.0.100:8080
+Username: stechs
+Method: POST
+StatusCode: 200
+URL: http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber
+Password: stechs
+
+---------------- Request ---------------------------
+Cookie: [PHPSESSID=rt35nvm21h7prabckcqnnina44]
+Authorization: [Basic c3RlY2hzOnN0ZWNocw==]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [10.0.0.100:8080]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+
+POST http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 49
+Host: 10.0.0.100:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: PHPSESSID=rt35nvm21h7prabckcqnnina44
+Cookie2: $Version=1
+Authorization: Basic c3RlY2hzOnN0ZWNocw==
+
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=97]
+Server: [Apache/2.2.22 (Debian)]
+Cache-Control: [no-store, no-cache, must-revalidate, post-check=0, pre-check=0]
+Connection: [Keep-Alive]
+Expires: [Thu, 19 Nov 1981 08:52:00 GMT]
+Pragma: [no-cache]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [218]
+Date: [Mon, 31 Dec 2018 13:04:18 GMT]
+X-Powered-By: [Stechs]
+Content-Type: [application/json]
+
+ 	 	 	{"Display_items":0,"Matched_items":0,"Error_code":406,"Items":null,"Error_str":"Subscriber number already exists","Error_str_detail":"The subscriber 100002 already exits","DoneTime":"0.000003","Result":"Failure"}
+ContainSubscriberNumber in [Create - CreateMartinBravoSubscriberShouldReturnOk] failed;
+[Missing token ["number":"100002"] in Response]
+Status: FAILED
+Time Taken: 108
+Size: 218
+Timestamp: Mon Dec 31 10:04:17 ART 2018
+TestStep: Create - CreateMartinBravoSubscriberShouldReturnOk
+
+----------------- Messages ------------------------------
+[ContainResultSuccess] Missing token [Result":"Success"] in Response
+[ContainSubscriberName] Missing token ["name":"Martin Bravo"] in Response
+[ContainSubscriberNumber] Missing token ["number":"100002"] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://10.0.0.100:8080
+Username: stechs
+Method: POST
+StatusCode: 200
+URL: http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber
+Password: stechs
+
+---------------- Request ---------------------------
+Cookie: [PHPSESSID=rt35nvm21h7prabckcqnnina44]
+Authorization: [Basic c3RlY2hzOnN0ZWNocw==]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [10.0.0.100:8080]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+
+POST http://10.0.0.100:8080/dsa-nico/dsa/api/v1.0/subscriber HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 49
+Host: 10.0.0.100:8080
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: PHPSESSID=rt35nvm21h7prabckcqnnina44
+Cookie2: $Version=1
+Authorization: Basic c3RlY2hzOnN0ZWNocw==
+
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=97]
+Server: [Apache/2.2.22 (Debian)]
+Cache-Control: [no-store, no-cache, must-revalidate, post-check=0, pre-check=0]
+Connection: [Keep-Alive]
+Expires: [Thu, 19 Nov 1981 08:52:00 GMT]
+Pragma: [no-cache]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [218]
+Date: [Mon, 31 Dec 2018 13:04:18 GMT]
+X-Powered-By: [Stechs]
+Content-Type: [application/json]
+
+ 	 	 	{"Display_items":0,"Matched_items":0,"Error_code":406,"Items":null,"Error_str":"Subscriber number already exists","Error_str_detail":"The subscriber 100002 already exits","DoneTime":"0.000003","Result":"Failure"}
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)

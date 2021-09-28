@@ -1,0 +1,2 @@
+crm_name,crm_subcode,address,olt_name,olt_shelf_id,olt_slot_id,olt_port_id,olt_ont_id,olt_ont_sn,olt_ont_model,rim_cto,rim_port,trafficProfile,crm_code_hsi,crm_code_wifi
+juan jose,11112,Migracion ONT 1,olt prueba,1,1,1,1,2312,model,1,2,test,1234,4321

@@ -1,0 +1,10 @@
+port=8080
+path=dsa-nico
+host=10.0.0.100
+dbUser=root
+dbPass=stsr00t
+dbHost=10.10.1.6
+dbDsa=dsa_testing_auto
+cookie=PHPSESSID=rraq3qfsapngkccc9rha0agec2; XDEBUG_SESSION=ECLIPSE_DBGP
+dbFdm=fdm_testing_auto
+dbBdp=bdp_testing_auto
